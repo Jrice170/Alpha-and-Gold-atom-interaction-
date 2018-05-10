@@ -20,7 +20,7 @@ qAu = 79 * q_e # Coulomb
 deltat = 1e-23 # seconds
 Au = sphere(pos=vector(0,0,0), radius=4e-15,color=color.yellow,make_trail=True,opacity=0.7,mass=(79+118)*m_p)
 
-b = eval(input("Enter impact parameter: "))
+b = 5E-15
 
 Alpha = sphere(pos=vector(-1e-13,b,0),radius=1e-15,color=color.red,make_trail=True,mass=(2+2)*m_p)
 Au.p = Au.mass*vector(0,0,0) # kg*m/s
